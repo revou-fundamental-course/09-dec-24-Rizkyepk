@@ -1,0 +1,109 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    border: 1px solid;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px 8px 16px;
+}
+
+
+nav a:hover {
+    color: blue;
+}
+
+.home-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url('https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/50dab922-5d48-4c6b-8725-7fd0755d9334/3a3f2d35-8167-4708-9ef0-bdaa980989f9.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.title p {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.banner-img {
+    background-image: url('https://media.cntraveler.com/photos/63f4f4fc0630e21ed8088321/1:1/w_1280%2Ch_1280%2Cc_limit/GettyImages-1145042281.jpeg');
+    height: 350px;
+    width: 750px;
+    background-size:cover ;
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+.main-item {
+    flex: 1;
+}
+
+form {
+    /* width: 320px; */
+    padding: 20px;
+    background-color: #f1f3f6;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+form button:hover {
+    background-color: rgb(0, 132, 255);
+}
+
+.our-packages-header {
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}

@@ -5,8 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document REP</title>
     <link href="/css/style.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(207, 204, 204);
+        }
+    </style>
 </head>
 <body>
+    <header class="main-header">
+        <div class="home-icon"></div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Our Packages</a>
+            <a href="#">Call Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>Your Trust Travel Agent's</h1>
+            <p>Your happiness is our happiness</p>
+        </div>
+        <section class="main-container">
+            <!-- banner -->
+            <aside class="main-item">
+                <div class="banner-img"></div>
+            </aside>
+            
+            <!-- form -->
+             <aside>
+                 <form class="main-item">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                    
+                    <!-- Input Nama -->
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="First and last name" required>
+                    
+                    <!-- Input Email -->
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    
+                    <!-- Dropdown -->
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" name="interest" required>
+                        <option value="" disabled selected>Select option</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                    
+                    <!-- Tombol Submit -->
+                    <button type="submit">SEND</button>
+                 </form>
+             </aside>
+        </section>
+
+        <div>
+
+        </div>
+
+        <!-- our packages content -->
+         <aside>
+            <header class="our-packages-header">
+                <h1>Our Packages</h1>
+            </header>
+         </aside>
+    </main>
+
+    <footer></footer>
     
 </body>
 </html>
