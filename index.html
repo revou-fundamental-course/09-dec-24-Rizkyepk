@@ -9,9 +9,10 @@
         body{
             background-color: rgb(207, 204, 204);
         }
-    </style>
+        </style>
 </head>
 <body>
+    <script src="/js/script.js"></script>
     <header class="main-header">
         <div class="home-icon"></div>
 
@@ -31,34 +32,53 @@
             <!-- banner -->
             <aside class="main-item">
                 <div class="banner-img"></div>
+                <p class="banner-txt">"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+
+                <!-- review -->
+                <div class="review">
+                    <!-- Profile Picture -->
+                    <div class="profile-img">
+                        <img src="/assets/japan.jpg" alt="User Profile">
+                    </div>
+            
+                    <!-- User Information -->
+                    <div class="review-info">
+                        <h4>Florence Hughes</h4>
+                        <p class="review-desc"><i>Ibu Rumah Tangga, 28</i></p>
+                    </div>
+                </div>
             </aside>
             
             <!-- form -->
-             <aside>
-                 <form class="main-item">
-                    <h2>Contact Us</h2>
+             <aside class="main-item" onsubmit="return validateForm()">
+                 <form name="massage-form">
+                    <h1>Contact Us</h1>
                     <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
                     
                     <!-- Input Nama -->
                     <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" placeholder="First and last name" required>
+                    <input type="text" id="name-input" name="name-input" placeholder="First name" >
                     
                     <!-- Input Email -->
                     <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    <input type="email" id="email-input" name="email-input" placeholder="example@email.com" >
                     
                     <!-- Dropdown -->
                     <label for="interest">What are you interested in?</label>
-                    <select id="interest" name="interest" required>
+                    <select id="interest-input" name="interest-input" >
                         <option value="" disabled selected>Select option</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="option1">Bali</option>
+                        <option value="option2">Jogja</option>
+                        <option value="option3">Bromo</option>
                     </select>
                     
                     <!-- Tombol Submit -->
-                    <button type="submit">SEND</button>
+                    <button type="submit" id="submit">SEND</button>
                  </form>
+
+                 <!-- <div>
+                    <p>Nama : <span id="sender-name"></span></p>
+                 </div> -->
              </aside>
         </section>
 
@@ -67,11 +87,35 @@
         </div>
 
         <!-- our packages content -->
-         <aside>
+         <div class="our-packages-main">
             <header class="our-packages-header">
                 <h1>Our Packages</h1>
             </header>
-         </aside>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="/assets/bali.jpg" alt="Bali">
+                            Bali
+                        </td>
+                        <td>
+                            <img src="/assets/Jogja.jpg" alt="Jogja">
+                            Jogja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/assets/Bromo.jpg" alt="Bromo">
+                            Bromo
+                        </td>
+                        <td>
+                            <img src="assets/bandung.jpg" alt="Bandung">
+                            Bandung
+                        </td>
+                    </tr>
+                </table>
+            </div>
+         </div>
     </main>
 
     <footer></footer>
