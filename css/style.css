@@ -1,6 +1,9 @@
 .main-header {
     display: flex;
     justify-content: space-between;
+    /* position: fixed;
+    top: 0; 
+    width: 99%; */
 }
 
 nav {
@@ -13,6 +16,9 @@ nav a {
     text-decoration: none;
     color: #000;
     padding: 8px 16px 8px 16px;
+
+    /* float: left;
+    display: block; */
 }
 
 
@@ -156,12 +162,13 @@ form button:hover {
     justify-content: center; */
 }
 
+/* our packages */
 .our-packages-main {
     background-color: #f0f0f0;
+    padding-bottom: 5px;
 }
 
 .our-packages-header {
-    /* background-color: #f0f0f0; */
     margin-top: 20px;
     padding-top: 64px;
     padding-bottom: 20px;
@@ -172,6 +179,7 @@ table {
     border-spacing: 10px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 td {
@@ -188,4 +196,37 @@ td img {
 td img:hover {
     opacity: 1;
     /* cursor: pointer; */
+}
+
+/* call us */
+.call-us-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* footer */
+#footer {
+    background-color: #f0f0f0; 
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    /* align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; */
+}
+
+.footer-bottom {
+    color: black;
+    font-size: 12px;
 }
