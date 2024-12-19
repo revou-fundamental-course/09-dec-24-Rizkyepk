@@ -53,7 +53,7 @@ nav a:hover {
 .banner-img {
     background-image: url('https://media.cntraveler.com/photos/63f4f4fc0630e21ed8088321/1:1/w_1280%2Ch_1280%2Cc_limit/GettyImages-1145042281.jpeg');
     height: 350px;
-    width: 650px;
+    /* width: 650px; */
     background-size:cover ;
     background-position: center;
 }
@@ -230,3 +230,5 @@ td img:hover {
     color: black;
     font-size: 12px;
 }
+
+
